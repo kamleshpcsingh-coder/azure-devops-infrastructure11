@@ -55,6 +55,12 @@ rg_x = {
         virtual_network_name = "vnet-testing"
         address_prefixes     = ["10.0.3.0/24"]
     }
+   subnet4 = {
+        name                 = "database-subnet"
+        resource_group_name  = "rg-testing"
+        virtual_network_name = "vnet-testing"
+        address_prefixes     = ["10.0.4.0/24"]
+    }
   }
   vm_x = {
      vm1 = {
