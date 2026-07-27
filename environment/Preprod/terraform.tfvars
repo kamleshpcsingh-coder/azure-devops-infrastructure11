@@ -7,6 +7,10 @@ rg_x = {
         name = "rg-testing1"
         location = "Central India"
     }
+   rg3 = {
+        name = "rg-testing2"
+        location = "Central India"
+    }
 }
   vnet_x = {
     vnet1 = {
